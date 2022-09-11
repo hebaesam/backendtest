@@ -2,18 +2,29 @@
  
 
 Requirements For Initial Setup : 
-  1.Install NodeJS
+
+   Install NodeJS
 
 Setting Up:
 
 1. Clone/Download the Repository
 
 2. Install Dependencies:
- . cd backendtest
- . npm install 
 
-3. Run fetchData
- . node fetchData.js
+   cd backendtest 
+  
+   npm install 
 
-4. Run API's
- . node API.js
+3. Run fetchData : 
+
+   node fetchData.js
+
+4. Run API's :
+
+   node API.js
+
+
+
+
+
+
