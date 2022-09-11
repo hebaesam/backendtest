@@ -31,7 +31,6 @@ app.get('/:name', async (req, res) => {
 app.get('/:names/:time_', async (req, res) => {
   try {
     const { names ,time_} = req.params;
-    console.log(names,"hhhhhhh");
     const namelist = names.split(",");
     const resp =  await connectUtils.findByNameList(namelist,time_); 
     
